@@ -14,12 +14,7 @@ function App() {
             <div className="App">
                 <Sidebar />
                 <Routes>
-                    <Route path="/" element={<Dashboard />} />
-                    <Route path="/news" element={<News />} />
-                    <Route path="/performance" element={<Performance />} />
-                    <Route path="/settings" element={<Settings />} />
-                    <Route path="/support" element={<Support />} />
-                    <Route path="/transactions" element={<Transactions />} />
+                   
                 </Routes>
             </div>
         </Router>
