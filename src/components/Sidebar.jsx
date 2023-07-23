@@ -24,7 +24,40 @@ const Sidebar=() => {
       <p className='name'>Hello Shanka</p>
       <p>shanakaprince@gmail</p>
     </div>
+    <div className='contentContainer'>
+      <ul>
+        <li>
+        <img src={Dashboard} alt='dashboard'/>
+        <a href="/">dashboard</a> 
+        </li>
 
+        <li>
+        <img src={Transactions} alt='transactions'/>
+        <a href="/Transactions">transactions</a> 
+        </li>
+
+        <li>
+        <img src={Performance} alt='performance'/>
+        <a href="/Performance">performance</a> 
+        </li>
+
+        <li>
+        <img src={News} alt='news'/>
+        <a href="/News">news</a> 
+        </li>
+
+        <li>
+        <img src={Settings} alt='settings'/>
+        <a href="/Settings">settings</a> 
+        </li>
+
+        <li>
+        <img src={Support} alt='support'/>
+        <a href="/Support">support</a> 
+        </li>
+
+      </ul>
+    </div>
 
      </div>
 
