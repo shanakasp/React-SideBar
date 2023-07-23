@@ -14,7 +14,14 @@ function App() {
             <div className="App">
                 <Sidebar />
                 <Routes>
-                   
+                   <Route path="/" element={<Dashboard/>} />
+                   <Route path="/News" element={<News/>} />
+                   <Route path="/Performance" element={<Performance/>} />
+                   <Route path="/Transactions" element={<Transactions/>} />
+                   <Route path="/Settings" element={<Settings/>} />
+                   <Route path="/Support" element={<Support/>} />
+                   <Route path="/Sidebar" element={<Sidebar/>} />
+
                 </Routes>
             </div>
         </Router>
